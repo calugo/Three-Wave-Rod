@@ -1,18 +1,10 @@
-import * as THREE from "https://unpkg.com/three/build/three.module.js"
 
-import Stats from 'https://unpkg.com/three/examples/jsm/libs/stats.module.js';
-import { GUI } from 'https://unpkg.com/three/examples/jsm/libs/lil-gui.module.min.js';
-import { OrbitControls } from 'https://unpkg.com/three/examples/jsm/controls/OrbitControls.js';
-import { TransformControls } from 'https://unpkg.com/three/examples/jsm/controls/TransformControls.js';
-import { DragControls } from 'https://unpkg.com/three/examples/jsm/controls/DragControls.js';
+import * as THREE from 'three';
+import Stats from 'three/addons/libs/stats.module.js';
 
-import { ParametricGeometries } from 'https://unpkg.com/three/examples/jsm/geometries/ParametricGeometries.js';
-
-import { Line2 } from 'https://unpkg.com/three/examples/jsm/lines/Line2.js';
-import { LineMaterial } from 'https://unpkg.com/three/examples/jsm/lines/LineMaterial.js';
-import { LineGeometry } from 'https://unpkg.com/three/examples/jsm/lines/LineGeometry.js';
-import { Wireframe } from 'https://unpkg.com/three/examples/jsm/lines/Wireframe.js';
-import { WireframeGeometry2 } from 'https://unpkg.com/three/examples/jsm/lines/WireframeGeometry2.js';
+import { DragControls} from 'three/addons/controls/DragControls.js';
+import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
+import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 
 let wireframe, renderer, scene, camera, camera2, controls;
 let wireframe1;
